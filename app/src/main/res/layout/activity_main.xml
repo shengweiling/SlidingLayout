@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.zztl.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:backgound="#cc3399"
+        app:text="卡片1"/>
+
+    <com.zztl.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:backgound="#99ffcc"
+        app:text="卡片2"/>
+
+    <com.zztl.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:backgound="#33ccff"
+        app:text="卡片3"/>
+
+    <com.zztl.slidinglayout.SlidingLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:backgound="#F4A460"
+        app:text="卡片4"/>
+
+</android.support.design.widget.CoordinatorLayout>

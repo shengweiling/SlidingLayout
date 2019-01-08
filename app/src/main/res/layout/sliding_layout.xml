@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+   >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        ></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical|start"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"/>
+
+
+</merge>
